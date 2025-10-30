@@ -1,0 +1,27 @@
+ton-projet/
+├── node_modules/
+├── package.json
+├── package-lock.json
+├── .env
+├── index.js          # Point d'entrée de l'API
+├── models/           # Modèles de données
+│   └── Tournoi.js
+│   └── Joueur.js
+│   └── Match.js
+├── controllers/      # Logique métier
+│   └── tournoiController.js
+│   └── joueurController.js
+│   └── matchController.js
+├── routes/           # Routes de l'API
+│   └── tournoiRoutes.js
+│   └── joueurRoutes.js
+│   └── matchRoutes.js
+└── config/           # Configuration (ex : base de données)
+    └── db.js
+
+
+-> faire un crud tournoi + inscription
+
+
+
+
